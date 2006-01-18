@@ -1,0 +1,9 @@
+* website
+
+- Commit all changed files, use label: "website: Cut version CCYY-MM-DD."
+
+
+- Deploy to Server
+	- In IE, open: ftp://www.inetvod.com
+	
+	- Copy all files from c:\projects\iNetVOD\website to ftp://www.inetvod.com
