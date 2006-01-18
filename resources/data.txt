@@ -1,0 +1,1 @@
+txt1=It's Your Choice&txt2=iNetVOD&button1=Home&button2=About Us&button3=Our Service&button4=Partners&button5=Contact Us&link1=index.htm&link2=companyoverview.htm&link3=ourservice.htm&link4=partneropportunities.htm&link5=contactus.htm

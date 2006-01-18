@@ -1,0 +1,199 @@
+/* Style sheet for TWC Graphics Design template */
+html {
+	margin: 0px auto;
+	padding: 0px;
+}
+body  { 	background: #C7C7C6;
+	width: 100%;
+	height: 100%;
+	color: #666; 
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center; font: normal normal 12px/17px Verdana, Arial, sans-serif;
+}
+input { color: #000; font: normal normal 11px Arial, sans-serif; }
+h1    { background: url('images/design_elements/h1.gif') no-repeat left; width: 90%;
+	font-variant: small-caps;
+	color: #626161; font-style:normal; font-weight:bold; font-size:13pt; font-family:Arial, Verdana, sans-serif; padding-left:25px; padding-right:2px; padding-top:2px; padding-bottom:0px }
+h2    { background: url('images/design_elements/h2.gif') no-repeat left; width: 90%;
+	font-variant: small-caps;
+	color: #626161; font-style:normal; font-weight:bold; font-size:13pt; font-family:Arial, Verdana, sans-serif; padding-left:22px; padding-right:2px; padding-top:2px; padding-bottom:0px }
+h3    { font: normal bold 11pt Arial, Verdana, sans-serif; color: #626161; padding: 3px; }
+h4    { color: #000; font:  normal bold 12px Verdana, Arial, sans-serif; }
+h5    { color: #000; font:  normal bold 11px Verdana, Arial, sans-serif; }
+h6    { color: #000; font:  normal bold 10px Verdana, Arial, sans-serif; }
+ol, ol ol, ol ol ol { color: #000; font: normal normal 12px/17px  Verdana, Arial, sans-serif; }
+ul    { list-style-image: url('images/design_elements/bullet.gif'); color: #000; 
+	 font: normal normal 12px/17px Verdana, Arial, sans-serif; }
+ul ul    { color: #000; font: normal normal 12px/17px Verdana, Arial, sans-serif; }
+ul ul ul { color: #000; font: normal normal 11px/15px Verdana, Arial, sans-serif; }
+
+/* Define Container to set Fixed Width */
+.yourname { 
+	position: relative;
+	text-align: left;
+	color: #333;
+	font: normal bold 30px Georgia, Times, serif;
+	font-variant: small-caps;
+	padding-top: 17px;
+	padding-left: 15px;
+	}
+
+.youraddress {
+	position: relative;
+	text-align: right;
+	color: #333;
+	font: normal normal 11px/12px Arial, sans-serif;
+	font-variant: small-caps;
+	padding-right: 20px;
+	padding-top: 2px;
+	}
+	
+
+.banner { background: url('images/design_elements/bannerback.gif'); height: 30px; text-align: right;
+	padding-right: 10px; font: normal normal 11px Verdana, Arial, sans-serif;  }
+
+.leftside { background: #F5F5F7; color: #000; 
+	width: 200px; padding: 10px; height: 100%; text-align: left; 
+	border-left: 1px solid #CCC;
+	font: normal normal 12px/17px Verdana, Arial, sans-serif; 
+}
+/* Define vertical menu areas */
+.menuboxtop { background-image: url('images/design_elements/menubar.gif'); 
+	color: #666; font: normal bold 12px Arial, sans-serif; 
+	padding-left: 10px; height: 30px; }
+.menubox { background: #EEEEED; font: normal bold 11px Verdana, Arial, sans-serif; 
+	color: #000; padding: 10px; line-height: 18px; border-right: 17px solid #F5F5F7; }
+.menubox a:link    { color: #000; text-decoration: none; font-weight: bold; }
+.menubox a:active  { color: #CCC; text-decoration: none; font-weight: bold;  }
+.menubox a:visited { color: #000; text-decoration: none; font-weight: bold;  }
+.menubox a:hover   { color: #23607D; font-weight: bold;  }
+	
+.content { background: #FFF;
+	width: 473px;
+	color: #000; font: normal normal 12px/17px Verdana, Arial, sans-serif; 
+	padding: 10px; 
+	text-align: left;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.contentfull { background: #FFF;
+	width: 760px;
+	color: #000; font: normal normal 12px/17px Verdana, Arial, sans-serif; 
+	padding: 10px; 
+	text-align: left;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.leftside2 { background: #F5F5F7; color: #000; 
+	width: 147px; padding: 10px; height: 100%; text-align: left; 
+	border-left: 1px solid #CCC;
+	font: normal normal 12px/17px Verdana, Arial, sans-serif; 
+}
+.content2 { background: #FFF;
+	width: 573px;
+	color: #000; font: normal normal 12px/17px Verdana, Arial, sans-serif; 
+	padding: 10px; 
+	text-align: left;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.rightside { background: #FFF; color: #000; 
+	width: 222px; padding: 6px; height: 100%; text-align: left; 
+	font: normal normal 12px/17px Verdana, Arial, sans-serif; 
+}
+
+#menuheader {
+	display: block;
+	height: 30px;
+	text-align: left;
+	font: normal normal 12px Verdana, Arial, sans-serif; 
+	font-variant: small-caps;
+	color: #626161; 
+}
+
+#mainmenu { 
+	display: block;
+	text-align: left;
+	font: normal normal 11px/20px Verdana, Arial, sans-serif; 
+	color: #000; 
+	width: 120px; 
+	height: 320px;
+	padding: 0px;
+	}
+
+/* Define main menu mouseover states */
+#mainmenu a { text-align: left; color: #000; text-decoration: none; }
+#mainmenu a:hover {text-align: left; color: #FFF; text-decoration: none; }
+
+#submenu { 
+	display: block;
+	text-align: left;
+	font: normal normal 12px/16px Verdana, Arial, sans-serif; 
+	font-variant: small-caps;
+	color: #BDBEBC; 
+	width: 120px; 
+	padding-left: 5px;
+	}
+
+/* Define main menu mouseover states */
+#submenu a { text-align: left; color: #BDBEBC; text-decoration: none; }
+#submenu a:hover {text-align: left; color: #000; text-decoration: none; }
+
+/* Define footer section */
+.footer { background: url('images/design_elements/footer.jpg') no-repeat;
+	text-align: center;
+	height: 70px; 
+	width: 760px;
+	color: #666; font-style:normal; font-variant:normal; font-weight:normal; line-height:14px; font-size:11px; font-family:Verdana, Arial, sans-serif; padding-left:5px; padding-right:5px; padding-top:10px; padding-bottom:0px
+}
+.footer a:link    { color: #666; text-decoration: none;   }
+.footer a:active  { color: #FFF; text-decoration: none;   }
+.footer a:visited { color: #666; text-decoration: none;   }
+.footer a:hover   { color: #000; text-decoration: underline;  }
+	
+/* Define standard hyperlinks */	
+a:link  { color: #626161;  }  
+a:active { color: #626161;  }
+a:visited { color: #626161;  }
+a:hover { color: #000; text-decoration: none; }
+
+
+
+/* Define product page sections */
+.productbox      { background: #EDEEEF; color: 000; font: normal normal 11px/13px Verdana, Arial, sans-serif; 
+	padding: 4px 10px 4px 10px; border: 1px solid #CBCBC8; text-align: left;
+}
+.productboxtop   { background: #626161; color: #FFF; font: normal bold 12px/15px Verdana, Arial, sans-serif; 
+	padding: 4px 10px 4px 10px; text-align: center; 
+	border-top: 1px solid #CBCBC8; border-left: 1px solid #CBCBC8;  border-right: 1px solid #CBCBC8;  }
+.products        { background: #FFF; }
+.productsleft   { background: #FFF; color: #195C82; border-left: 1px solid #CBCBC8; 
+	border-top: 1px solid #CBCBC8; font: normal normal 11px Verdana, Arial, sans-serif;
+	padding: 4px 10px 4px 10px; text-align: center; }
+.productsright  { background: #FFF; color: #195C82; border-left: 1px solid #CBCBC8; border-top: 1px solid #CBCBC8; 
+	padding: 4px 10px 4px 10px; text-align: center; border-right: 1px solid #CBCBC8; font: normal normal 11px Verdana, Arial, sans-serif; }
+.productboxleft     { background: #EDEEEF; color: #000; text-align: center;
+	font: normal normal 11px/13px Verdana, Arial, sans-serif; 
+	padding: 4px 10px 4px 10px; border-left: 1px solid #626161; border-top: 1px solid #CBCBC8; }
+.productboxright      { background: #EDEEEF; color: #000; text-align: center;
+	font: normal normal 11px/13px Verdana, Arial, sans-serif; 
+	padding: 4px 10px 4px 10px; border-left: 1px solid #626161; border-right: 1px solid #CBCBC8; 
+	border-top: 1px solid #CBCBC8; }
+.productboxlbot     { background: #EDEEEF; color: #000; text-align: center;
+	font: normal normal 11px/13px Verdana, Arial, sans-serif;  border-bottom: 1px solid #CBCBC8;
+	padding: 4px 10px 4px 10px; border-left: 1px solid #CBCBC8; border-top: 1px solid #CBCBC8; }
+.productboxrbot      { background: #EDEEEF; color: #000; text-align: center;
+	font: normal normal 11px/13px Verdana, Arial, sans-serif; 
+	padding: 4px 10px 4px 10px; border-left: 1px solid #CBCBC8; border-bottom: 1px solid #CBCBC8;
+	border-right: 1px solid #CBCBC8; border-top: 1px solid #CBCBC8; }
+
+/* Define text boxes */
+.textboxtop { background-image: url('images/design_elements/boxtop.jpg'); color: #000; font: normal bold 11px Verdana, Arial, sans-serif; 
+	height: 18px;  }
+.textbox { background-image: url('images/design_elements/boxbk.jpg'); color: #000; font: normal normal 11px Verdana, Arial, sans-serif; 
+	padding: 5px; }
+.textboxbot { background-image: url('images/design_elements/boxbot.jpg'); color: #23607D; font: normal bold 11px Verdana, Arial, sans-serif; 
+	height: 20px; padding-right: 5px; }
