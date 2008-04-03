@@ -29,5 +29,5 @@ intellectual property ownership interests in and to the Source Code or any other
 intellectual property rights to the full extent permitted by law.
 
 The Source Code is copyrighted material.
-Copyright © 2004-2006 iNetVOD, Inc.  ALL RIGHTS RESERVED.
+Copyright © 2004-2008 iNetVOD, Inc.  ALL RIGHTS RESERVED.
 ********************************************************************************
